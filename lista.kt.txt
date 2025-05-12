@@ -1,0 +1,16 @@
+fun main() {
+    val listaFrutas = mutableListOf("Maca", "Banana", "Laranja", "Uva", "Morango")
+//     Adicionar uma nova fruta 
+    listaFrutas.add("Kiwi")
+//     Remover fruta
+    listaFrutas.remove("Uva")
+//     Imprime na tela o primeiro elemento
+    println(listaFrutas[0])
+//     Imprime cada fruta
+    for(fruta in listaFrutas){
+        println(fruta)
+    }
+//     Tamanho da lista 
+    var tamanho:Int = listaFrutas.size
+    println("Tamanho da lista: $tamanho")
+}
