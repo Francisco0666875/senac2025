@@ -1,0 +1,12 @@
+fun main() {
+
+    val numero1 = 10
+
+    val numero2 = 15
+
+    val maior = encontraMaior(numero1, numero2)
+
+    println("O maior número é: $maior")
+
+}
+ 
